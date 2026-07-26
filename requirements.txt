@@ -1,2 +1,2 @@
 Django==5.2
-mysqlclient
+PyMySQL==1.1.1
