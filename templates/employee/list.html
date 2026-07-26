@@ -1,0 +1,1 @@
+<h2>Employees</h2><a href='/add/'>Add</a><table border=1>{% for e in employees %}<tr><td>{{e.name}}</td><td>{{e.email}}</td><td><a href='/edit/{{e.id}}/'>Edit</a> <a href='/delete/{{e.id}}/'>Delete</a></td></tr>{% endfor %}</table>
